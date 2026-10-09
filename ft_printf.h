@@ -6,7 +6,7 @@
 /*   By: david <davguerr@student.42madrid.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/08 18:50:53 by david             #+#    #+#             */
-/*   Updated: 2026/10/09 01:13:49 by david            ###   ########.fr       */
+/*   Updated: 2026/10/09 10:43:01 by david            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,9 @@
 
 # define FT_PRINTF_H
 
-# include "libft.h"
 # include <stdarg.h>
+# include <unistd.h>
+# include <stdlib.h>
 
 int	print_char(char c);
 int	print_str(char *str);
